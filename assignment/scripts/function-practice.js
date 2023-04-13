@@ -70,6 +70,16 @@ for (let i = 0; i < array.length; i++){
   }
   return "False";
 }
+/*
+function find( value, array){
+  for (item of array) {
+    if (value === array){
+      return true;
+    }
+  }
+  return false;
+}
+*/
 console.log(find(2,[2,3,6]))
 
 // ----------------------
